@@ -9,7 +9,7 @@ Necesitas macOS, Python 3, curl y al menos uno de los clientes instalado. Por ej
 Ejecuta en Terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/andresgarcia29/omniroute-clients/v1.0.0/install.sh -o /tmp/install-omniroute.sh && bash /tmp/install-omniroute.sh
+curl -fsSL https://router-cli.the-harness.io -o /tmp/install-omniroute.sh && bash /tmp/install-omniroute.sh
 ```
 
 Introduce tu API key de OmniRoute cuando te la pida. El instalador verifica la clave en `https://router.the-harness.io/v1/models` y la guarda en `~/.omniroute/.env` con permisos de lectura y escritura para tu usuario.

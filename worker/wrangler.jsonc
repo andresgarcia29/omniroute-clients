@@ -1,0 +1,8 @@
+{
+  "name": "omniroute-cli-download",
+  "main": "index.js",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "router-cli.the-harness.io", "custom_domain": true }]
+}
